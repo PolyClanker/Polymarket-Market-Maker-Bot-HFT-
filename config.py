@@ -1,0 +1,17 @@
+LOG_FOLDER = "logs/"
+GAMMA_API_URL = "https://gamma-api.polymarket.com"
+POLYMARKET_HOST = "https://clob.polymarket.com"
+POLYMARKET_WS_MARKET_URL = "wss://ws-subscriptions-clob.polymarket.com/ws/market"
+POLYMARKET_WS_USER_URL = "wss://ws-subscriptions-clob.polymarket.com/ws/user"
+CHAIN_ID = 137
+REQUEST_TIMEOUT = 10
+PROFIT_MARGIN = 0.05
+TRADING_BPS_THRESHOLD = 50
+MAX_TRADING_BPS_THRESHOLD = 100
+MARKET_SESSION_SECONDS = 900
+TIMEZONE = "US/Eastern"
+MAX_TRADES = 3
+MAX_INVENTORY = 3
+MIN_DELAY_BETWEEN_TRADES_SECONDS = 1
+ORDER_SIZE = 5  # Size of each order in quantity (minimum is 5)
+PLACE_OPPOSITE_ORDER = True  # Hedge orders
